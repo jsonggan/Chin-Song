@@ -2,18 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import singpass from "../../Assets/Projects/singpass.png";
 import dbs from "../../Assets/Projects/dbs.jpg";
 import ocbc from "../../Assets/Projects/ocbc.jpg";
 import dnata from "../../Assets/Projects/dnata.png";
 import fronthausEventApp from "../../Assets/Projects/fronthausEventApp.png";
 import resico from "../../Assets/Projects/resico.png";
+import empathiq from "../../Assets/Projects/empathiq.png";
+import irb from "../../Assets/Projects/irb.png";
+import aia from "../../Assets/Projects/aia.png";
+import rmo from "../../Assets/Projects/rmo.png";
+import jarvis from "../../Assets/Projects/jarvis.png";
 
 function Projects() {
   return (
@@ -27,6 +26,53 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jarvis}
+              isBlog={false}
+              title="Multi-Agent Investment Analysis · Temasek"
+              description="Architected a production-grade RAG-based multi-agent investment analysis platform for Temasek (OpenAI Agents SDK, AWS Bedrock Claude 3.5) with persistent memory, Perplexity web search, and SharePoint integration; reduced analyst workflow time costs by 40%."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rmo}
+              isBlog={false}
+              title="AI-Driven Talent Intelligence Platform"
+              description="Designed and productionised an internal RAG-based talent-matching and skill-gap analysis platform (LLM CV parsing, FastAPI, Next.js, AWS Bedrock, PostgreSQL vector DB, Celery, CI/CD); saved 20 hours/week of manual review effort."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aia}
+              isBlog={false}
+              title="AIA Voice AI Sales Training Platform"
+              description="Owned end-to-end design, deployment, and production operations of a voice-to-voice AI sales training platform used by 52,000+ AIA agents across Thailand (Terraform, Kubernetes on Azure, FastAPI, Next.js, Azure OpenAI, Azure Speech)."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={irb}
+              isBlog={false}
+              title="IRB Process Digitalisation"
+              description="Digitalized the IRB process with a multi-role Next.js web portal and MySQL database, automating workflows to cut process time by 78%, deployed securely with Docker on-prem."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={empathiq}
+              isBlog={false}
+              title="EmpathIQ – Healthcare Communication AI Coach · TTSH"
+              description="Led a 5-person Agile team to develop a Spring Boot–React AI application simulating doctor-patient communication, integrating Kafka, LLMs, ElevenLabs, Docker, and AWS for Tan Tock Seng Hospital. Awarded 2nd Place in the Design AI Award (80+ projects), presented by President Tharman Shanmugaratnam."
+              demoLink="https://empathiq-sg.com/"
+              youtubeLink="https://www.youtube.com/watch?v=9J7fu8V7UfE"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={singpass}
@@ -55,7 +101,7 @@ function Projects() {
               title="Frank by OCBC"
               description="A real-time updating web app that receives user card designs and displays them with elegant animations."
               ghLink="https://github.com/jsonggan"
-              demoLink="https://frank.holo.sg/card"              
+              demoLink="https://frank.holo.sg/card"
             />
           </Col>
 
@@ -77,7 +123,6 @@ function Projects() {
               title="Event Application"
               description="Designed architecture of the mobile app for event attendees so that the app can be easily customized for different events."
               ghLink="https://github.com/jsonggan/fronthaus"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -88,7 +133,7 @@ function Projects() {
               title="ResiCo"
               description="Connecting communities together by digitalizing residential notice boards and providing an easier way for residents to talk, ask, and help each other."
               ghLink="https://github.com/jsonggan/ResiCo"
-              demoLink="https://www.linkedin.com/feed/update/urn:li:activity:7110657925282463744/"    
+              demoLink="https://www.linkedin.com/feed/update/urn:li:activity:7110657925282463744/"
             />
           </Col>
         </Row>
