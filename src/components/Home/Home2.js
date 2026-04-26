@@ -19,39 +19,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a user-centric developer with 1.8 years of combined internship experience in software engineering. I've contributed to projects for over 6 clients, including 
+            I am an AI Engineer with a passion for building production-grade systems that solve real problems at scale. Since graduating from SUTD, I've shipped AI systems used by over
             <i>
-              <b className="purple"> Google, DBS, OCBC and Singpass </b>
-            </i> 
-            , developing software that has reached over 
-            <i>
-              <b className="purple"> 20,000 users</b>
-            </i> .
+              <b className="purple"> 52,000 users </b>
+            </i>
+            across Southeast Asia, spanning multi-agent investment analysis platforms, voice-to-voice AI training tools, and RAG-based talent intelligence systems.
             <br />
             <br />
-            Some examples include:<br />
-            1. At HelloHolo, as a software engineer intern, I collaborated closely with the development team to deliver 
+            At
             <i>
-              <b className="purple"> 2 mobile and 2 web applications </b>
-            </i> 
-            , enhancing the event experience for more than 
+              <b className="purple"> Temus</b>
+            </i>
+            , a Temasek &amp; UST joint venture, I work across the full stack of AI delivery — from LLM orchestration and agentic pipelines to cloud infrastructure and frontend interfaces. My work has reduced analyst workflow costs by
             <i>
-              <b className="purple"> 15,000 </b>
-            </i> 
-            attendees by providing easy access to information.<br /><br />
-            2. In partnership with Google and Dnata, I helped develop an automated news collection and sharing platform, reducing the time employees spend accessing valuable news by 
+              <b className="purple"> 40%</b>
+            </i>
+            , saved
             <i>
-              <b className="purple"> 70% </b>
-            </i> 
-            . I led a 6-person Agile team and was primarily responsible for designing the software system.<br /><br />
-            3. I developed a Java-based Android application that fostered community interaction among residents, which won 
-            <i>
-              <b className="purple"> 3rd place in the Singtel X SUTD award </b>
-            </i> 
-            .
+              <b className="purple"> 20 hours </b>
+            </i>
+            of manual effort per week, and supported enterprise clients in finance, insurance, and healthcare.
             <br /><br />
-            I am passionate about opportunities to develop applications that can impact billions of users.
-           
+            I'm especially drawn to problems at the intersection of
+            <i>
+              <b className="purple"> AI and high-stakes domains </b>
+            </i>
+            like finance and healthcare, where thoughtful engineering actually changes how people work. Outside of my day job, I build personal AI projects, fine-tune models, and explore what's next in agentic systems.
+            <br /><br />
+            If you're looking for someone who can take an ambiguous problem and ship something real,
+            <i>
+              <b className="purple"> let's talk.</b>
+            </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
